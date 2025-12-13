@@ -24,11 +24,9 @@ while True:
             print("Sorry, that's incorrect! Try a lower number.")
         else:
             print("Correct! You guessed the number!")
-            break  # Exit guessing loop
-
-    # Ask to play again
+            break
     play_again = input("Would you like to play again? (y/n): ").lower()
 
     if play_again != "y":
         print("Thanks for playing!")
-        break  # Exit game loop
+        break
