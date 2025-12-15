@@ -28,7 +28,7 @@ def play_game():
         if choice2 == "3":
             print("\nYou step on a rock.")
             print("The dragon wakes up and burns you alive.")
-            print("Ending: You died. 💀")
+            print("Ending: You died. ")
             return
 
         if choice2 in ("1", "2"):
@@ -51,7 +51,7 @@ def play_game():
                     if choice2 == "2":
                         print("\nYou fire an arrow into the dragon’s eye!")
                         print("The dragon flees the cave.")
-                        print("Ending: You survive! 🎉")
+                        print("Ending: You survive! ")
                         return
                     else:
                         print("\nYou strike the dragon with your sword!")
@@ -66,7 +66,7 @@ def play_game():
                     player_health -= 1
 
             print("\nThe dragon delivers a final blow.")
-            print("Ending: You were defeated. 💀")
+            print("Ending: You were defeated. ")
             return
 
     # RIVER PATH
@@ -81,7 +81,7 @@ def play_game():
 
         if choice2 == "2":
             print("\nThe current is too strong.")
-            print("Ending: You drown. 💀")
+            print("Ending: You drown. ")
             return
 
         if choice2 == "1":
@@ -92,7 +92,7 @@ def play_game():
 
             if wire == "blue":
                 print("\nThe engine explodes!")
-                print("Ending: The boat is destroyed. 💥💀")
+                print("Ending: The boat is destroyed. ")
                 return
 
             if wire == "red":
@@ -106,18 +106,18 @@ def play_game():
 
                 if direction == "1":
                     print("\nYou reach the village safely.")
-                    print("Ending: You are rescued! 🏡")
+                    print("Ending: You are rescued! ")
                     return
                 else:
                     print("\nThe river speeds up!")
                     print("You plunge over a waterfall.")
-                    print("Ending: You did not survive. 💀")
+                    print("Ending: You did not survive. ")
                     return
 
     # INVALID INPUT
     else:
         print("\nYou freeze in fear.")
-        print("Ending: Lost forever in the forest. 🌲")
+        print("Ending: Lost forever in the forest. ")
         return
 
 # PLAY AGAIN LOOP
